@@ -26,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../all assinment/assignment/my assignment.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leader-bourd-css/index.html/leader-style.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +58,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
