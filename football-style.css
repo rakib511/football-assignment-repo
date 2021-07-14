@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#0000CD;
+}
+
+
+/*-----nav style-----*/
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin-right:0px;
+}
+nav i{
+    margin-right:5px;
+}
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-right:20px;
+}
+nav .login{
+    background-color:tomato;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+
+}
+
+
+
+
+/*----------header style style---------------*/
+
+
+
+.header-content{
+    display:flex;
+}
+.content .header-title{
+    color:white;
+    font-size:40px;
+}
+.content .header-button{
+    background-color:tomato;
+    color:white;
+    padding:10px;
+}
+.content a{
+    text-decoration:none;
+}
+.header-banners img{
+    height:500px;
+    width:600px;
+    transition:width 1s,height 1s, transform 1s;
+}
+.header-content .header-banners img:hover{
+    height:510px;
+    width:610px;
+    transform:rotate(5deg);
+}
+
+
+
+
+/*------------main section style-------------*/
+
+.container{
+    width:870px;
+    margin-top:40px;
+    padding:30px;
+    border-radius:10px;
+}
+.players{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-row-gap:30px;
+    grid-column-gap:30px;
+}
+.player{
+    border:1px solid white;
+    box-shadow:8px 5px 15px 0px grey;
+    padding:10px;
+}
+.player img{
+    height:300px;
+    width:350px;
+}
+.player-name{
+    font-size:30px;
+}
+.players p{
+    color:grey;
+}
+
+
+
+
+/*-----------highlight part style---------*/
+
+
+
+.highlight{
+    display:flex;
+}
+.highlight-content .highlight-heading{
+    font-size:40px;
+}
+.highlight-content p{
+    color:grey;
+}
+.highlight-content a{
+    text-decoration:none;
+}
+.highlight-content .highlight-button{
+    background-color:tomato;
+    padding:10px;
+    color:white;
+}
+.highlight .highlight-img img{
+    height:500px;
+    width:650px;
+}
+
+
+
+
+/*-------------footer style----------*/
+
+
+.footer{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+.footer-img img{
+    width:300px;
+    height:100px;
+}
+.icon{
+    font-size:30px;
+    color:grey;
+    margin-right:5px;
+}
