@@ -37,30 +37,40 @@ nav .login{
 
 
 /*----------header style style---------------*/
-
-
-
+header{
+    padding:80px;
+}
 .header-content{
     display:flex;
+    margin-top:20px;
+}
+.content{
+    width:50%;
+    margin-top:30px;
 }
 .content .header-title{
     color:white;
-    font-size:40px;
+    padding:10%;
+    font-size:50px;
 }
+.content .header-button{
+    padding:10px;
+    margin-left:60px;
+}
+
 .content .header-button{
     background-color:tomato;
     color:white;
-    padding:10px;
 }
 .content a{
     text-decoration:none;
 }
-.header-banners img{
+.content img{
     height:500px;
     width:600px;
     transition:width 1s,height 1s, transform 1s;
 }
-.header-content .header-banners img:hover{
+.header-content .content img:hover{
     height:510px;
     width:610px;
     transform:rotate(5deg);
@@ -72,10 +82,12 @@ nav .login{
 /*------------main section style-------------*/
 
 .container{
-    width:870px;
-    margin-top:40px;
+    width:840px;
     padding:30px;
-    border-radius:10px;
+    margin-top:7rem;
+    margin-bottom:7rem;
+    margin-left:7%;
+    margin-right:7%;
 }
 .players{
     display:grid;
@@ -108,9 +120,13 @@ nav .login{
 
 .highlight{
     display:flex;
+    margin:10%;
 }
 .highlight-content .highlight-heading{
     font-size:40px;
+}
+.highlight-content{
+    padding:30px;
 }
 .highlight-content p{
     color:grey;
@@ -123,7 +139,7 @@ nav .login{
     padding:10px;
     color:white;
 }
-.highlight .highlight-img img{
+.highlight-content img{
     height:500px;
     width:650px;
 }
@@ -134,17 +150,19 @@ nav .login{
 /*-------------footer style----------*/
 
 
-.footer{
-    display:grid;
-    justify-content:center;
-    align-items:center;
-}
+
+.footer-style{
+    text-align:center;
+    color:black;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    border-radius:20px;
+    }
 .footer-img img{
-    width:300px;
-    height:100px;
+    height:120px;
+    width:500px;
 }
-.icon{
+.social-connect i{
     font-size:30px;
-    color:grey;
     margin-right:5px;
 }
